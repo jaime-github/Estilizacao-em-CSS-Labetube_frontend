@@ -1,0 +1,16 @@
+import React from "react";
+import './index.css'
+
+const (Header,Nav,Sidebar,Footer) = () => {
+    return ( 
+    
+    <div> 
+        <>
+            <h...></h...>
+        </>
+    </div> 
+
+    )
+}
+
+export default (Header,Nav,Sidebar,Footer);

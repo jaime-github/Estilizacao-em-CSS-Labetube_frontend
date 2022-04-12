@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    font-size: 20px;
+    background-color: orangered;
+    display: flex;
+    justify-content: space-between;
+    height:80px;
+    align-items: center;
+    padding: 10px 10px;
+}
+
+.titulo-header h3 {
+    font-size: 35px;   
+}
+
+.titulo-pag-apoio1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+button{
+    padding: 8px 150px;
+    align-items: left;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+video {
+    width: 90%;
+    /* height: 100%; */
+    text-align: center;
+
+}
+
+footer{
+    background-color: rgb(107, 19, 75);
+}
+footer p{
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    padding: 20px 0px;
+    font-weight: bold;
+    margin-top: 300px;
+}
